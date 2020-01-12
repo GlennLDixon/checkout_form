@@ -27,14 +27,14 @@ body {
 
 .left-section{
     float: left;
-    width: 400px;
+    width: 520px;
     height: 600px;
     border: 1px solid black;
 }
 
 .right-section{
     float: right;
-    width: 400px;
+    width: 280px;
     height: 600px;
     border: 1px solid green;
 }

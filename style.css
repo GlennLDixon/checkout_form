@@ -15,9 +15,27 @@ body {
     justify-content: center;
 }
 
-.checkout{
+input {
+    border-radius: 5px;
+    height: 45px;
+      border: 1px solid black; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 15px 0 10px 0;
+}
+
+.checkout {
     padding: 0px, auto;
-    width: 800px;
+    width: 1000px;
     height: 600px;
     text-align: center;
     display: flex;
@@ -25,16 +43,30 @@ body {
     border: 1px solid red;
 }
 
-.left-section{
+.left-section {
     float: left;
-    width: 520px;
-    height: 600px;
+    width: 710px;
+    height: 450px;
     border: 1px solid black;
 }
 
-.right-section{
-    float: right;
+.side-col {
     width: 280px;
     height: 600px;
-    border: 1px solid green;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1.5px solid green;
 }
+
+.price-sum {
+    width: 280px;
+    height: 350px;
+    border: 1px solid orange;
+}
+
+.item-display {
+    width: 280px;
+    height: 200px;
+    border: 1px solid blue;
+}
+

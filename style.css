@@ -43,10 +43,35 @@ input {
     border: 1px solid red;
 }
 
+
+/* SHIPPIN SECTION  */
+
+
+.left-section {
+    float: left;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.shipping-form form {
+    width: 710px;
+    height: 450px;
+}
+
+.first_name--input, .email_input {
+    float: left;
+}
+
+.last_name--input, .contact_input {
+    float: right;
+}
+/* PAYMENT SECTION */
+
 .left-section {
     float: left;
     width: 710px;
     height: 450px;
+    flex-direction: column;
     border: 1px solid black;
 }
 
@@ -70,3 +95,6 @@ input {
     border: 1px solid blue;
 }
 
+.payment {
+    border: 1px solid lavender;
+}

@@ -15,6 +15,12 @@ body {
     justify-content: center;
 }
 
+/* label[for] {
+    font-size: 15px;
+    margin: 20px 0 0 100px;
+    position: absolute;
+} */
+
 input {
     border-radius: 2px;
     height: 45px;
@@ -67,11 +73,38 @@ input {
     justify-content: space-between;
 }
 
+
 .contact_input {
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
+
+.name_input > label[for=last_name] {
+    margin: 28px 0 0 425px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.name_input > label[for=first_name] {
+    margin: 28px 0 0 75px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.contact_input > label[for=email] {
+    margin: 28px 0 0 75px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.contact_input > label[for=number] {
+    margin: 28px 0 0 75px;
+    font-size: 17px;
+    position: absolute;
+}
+
+
 /* PAYMENT SECTION */
 
 

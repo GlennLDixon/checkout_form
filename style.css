@@ -80,26 +80,26 @@ input {
 
 /* lABELS FOR SHIPPING SECTION */
 
-.name_input > label[for=last_name] {
-    margin: 28px 0 0 425px;
+.first_input > label[for=first_name] {
+    margin: 0px 0 0 15px;
     font-size: 17px;
     position: absolute;
 }
 
-.name_input > label[for=first_name] {
-    margin: 28px 0 0 75px;
+.last_input > label[for=last_name] {
+    margin: 28px 0 0 15px;
     font-size: 17px;
     position: absolute;
 }
 
-.contact_input > label[for=email] {
-    margin: 28px 0 0 75px;
+.email_input > label[for=email] {
+    margin: 28px 0 0 15px;
     font-size: 17px;
     position: absolute;
 }
 
 .contact_input > label[for=number] {
-    margin: 28px 0 0 75px;
+    margin: 28px 0 0 15px;
     font-size: 17px;
     position: absolute;
 }
@@ -107,7 +107,21 @@ input {
 
 /* INPUTS FOR SHIPPING SECTION */
 
+.first_input {
+    margin: 30px 650px 0 0;
+}
 
+.last_input {
+    margin: 30px 0px 0 0;
+}
+
+.email_input {
+    margin: 105px 0 0 -650px;
+}
+
+.contact_input {
+    margin: 180px 0 0 30px;
+}
 
 /* PAYMENT SECTION */
 

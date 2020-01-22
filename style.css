@@ -35,8 +35,16 @@ input {
     margin: 15px 0 10px 0;
 } 
 
+.head > header > h1{
+    position: absolute;
+    margin: -375px 0 0 400px;
+    border: 1px solid red;
+}
+
+/* SHIPPIN SECTION  */
+
 .ship {
-    height: 70px;
+    height: 60px;
     color: white;
     background-color: black;
     /* border: 4px solid red; */
@@ -44,14 +52,10 @@ input {
 
 .ship > h1 {
     /* justify-content: flex-start; */
-    margin: 0 475px 0 0;
+    margin: 0 490px 0 0;
     padding-top: 15px;
+    font-size: 1.5rem;
 }
-
-
-
-/* SHIPPIN SECTION  */
-
 
 .checkout {
     padding: 0px, auto;

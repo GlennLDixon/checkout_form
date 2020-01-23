@@ -88,7 +88,7 @@ input {
 }
 
 .last_input > label[for=last_name] {
-    margin:  45px 0 0 195px;
+    margin:  45px 0 0 205px;
     font-size: 17px;
     position: absolute;
 }
@@ -106,7 +106,7 @@ input {
 }
 
 .contact_input > label[for=number] {
-    margin: 210px 0 0 -335px;
+    margin: 210px 0 0 -330px;
     font-size: 17px;
     position: absolute;
 }
@@ -121,14 +121,14 @@ input {
 }
 
 .last_input > input {
-    margin: 35px 0 0 185px;
+    margin: 35px 0 0 195px;
     width: 300px;
     height: 40px;
 }
 
 .address_input > input {
     margin: 105px 0 0 -328px;
-    width: 39.8%;
+    width: 40.3%;
     height: 40px;
 }
 
@@ -139,7 +139,7 @@ input {
 }
 
 .contact_input > input {
-    margin: 200px 0 0 -347px;
+    margin: 200px 0 0 -340px;
     width: 300px;
     height: 40px;
 }
@@ -154,8 +154,12 @@ input {
 }
 
 button {
+    font-size: 0.8rem;
+    height: 38px;
+    width: 120px;
+    padding: 5px;
     position: absolute;
-    margin: 300px 0 0 550px;
+    margin: 260px 0 0 545px;
 }
 
 /* PAYMENT SECTION */
